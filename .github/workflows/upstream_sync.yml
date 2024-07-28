@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - test
+      - master
 
 jobs:
   sync_latest_from_upstream:
